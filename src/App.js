@@ -1,6 +1,6 @@
-import React, { Fragment } from "react";
+import React, { Component, Fragment } from "react";
 
-export default class App extends React.Component {
+class App extends Component {
   render() {
     return (
       <Fragment>
@@ -17,3 +17,5 @@ export default class App extends React.Component {
     );
   }
 }
+
+export default App;
